@@ -1,0 +1,66 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+/* ------------------ */
+
+/* reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ------------------ */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+/* for navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+}
+a {
+    text-decoration: none;
+    color: #222;
+}
+.logo {
+    margin-right: auto;
+}
+.logo a {
+    font-size: 1.5rem;
+    color: coral;
+    font-weight: bold;
+}
+.projects, .contact {
+    margin: 0 2rem;
+}
+.login-btn {
+    padding: .5rem 1rem;
+    border: none;
+    font-size: 1rem;
+}
+.login-btn:hover, .login-btn:focus {
+    background-color: coral;
+    color: #fff;
+}
+/* --------------------- */
+
+/* for contents */
+.contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+p {
+    color: coral;
+    margin-top: 1rem;
+}
+/* --------------------- */
